@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "explanation_length",
+        "explanation_style",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nGive me the five emotions of joke of topic,{topic}\n    explanation_style:{explanation_style}\n    explanation_length:{explanation_length}\n\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
