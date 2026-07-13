@@ -3,8 +3,6 @@ from langchain_core.prompts import PromptTemplate,load_prompt
 from dotenv import load_dotenv
 load_dotenv()
 
-import streamlit as st 
-
 llm1= HuggingFaceEndpoint(repo_id="Qwen/Qwen3-8B",task="text generation",temperature=0.7)
 model = ChatHuggingFace(llm=llm1)
 
